@@ -1,0 +1,46 @@
+#HTTP ENUM
+
+grep -ri "productname @/usr/share/wordlists/ ? :)
+
+/usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-big.tx
+/usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
+/usr/share/wordlists/dirbuster/directory-list-1.0.txt
+/usr/share/wordlists/dirb/common.txt
+/usr/share/wordlists/dirb/big.txt
+/usr/share/wordlists/dirb/mutations_common.txt
+/usr/share/wordlists/dirb/extensions_common.txt
+/usr/share/wordlists/seclists/Discovery/Web-Content/default-web-root-directory-linux.txt
+/usr/share/wordlists/seclists/Discovery/Web-Content/default-web-root-directory-windows.txt
+/usr/share/wordlists/seclists/Discovery/Web-Content/quickhits.txt
+/usr/share/wordlists/seclists/Discovery/Web-Content/Roundcube-123.txt
+
+
+#HTTP SUBDOMAINS ENUM
+
+/usr/share/wordlists/seclists/Discovery/DNS/subdomains-spanish.txt
+/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt
+/usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+/usr/share/wordlists/seclists/Discovery/DNS/services-names.txt
+/usr/share/wordlists/seclists/Discovery/DNS/bitquark-subdomains-top100000.txt
+/usr/share/wordlists/seclists/Discovery/DNS/fierce-hostlist.txt
+/usr/share/wordlists/seclists/Discovery/DNS/namelist.txt
+/usr/share/wordlists/seclists/Discovery/DNS/sortedcombined-knock-dnsrecon-fierce-reconng.txt
+
+
+
+
+
+#FUZZING
+/usr/share/wordlists/seclists/Fuzzing/0-999999-hashgen.py
+/usr/share/wordlists/seclists/Fuzzing/1-4_all_letters_a-z.txt
+/usr/share/wordlists/seclists/Fuzzing/3-digits-000-999.txt
+/usr/share/wordlists/seclists/Fuzzing/4-digits-0000-9999.txt
+/usr/share/wordlists/seclists/Fuzzing/5-digits-00000-99999.txt
+/usr/share/wordlists/seclists/Fuzzing/6-digits-000000-999999.txt
+/usr/share/wordlists/seclists/Fuzzing/email-top-100-domains.txt
+/usr/share/wordlists/seclists/Fuzzing/XXE-Fuzzing.txt
+/usr/share/wordlists/seclists/Fuzzing/XML-FUZZ.txt
+/usr/share/wordlists/seclists/Fuzzing/login_bypass.txt
+/usr/share/wordlists/seclists/Fuzzing/file-extensions.txt
+
