@@ -63,11 +63,11 @@
 * This list is to reproduce with every new access you harvest.
 * Try enum4linux to enumerate smb information.
 
-`enum4linux 10.10.10.10`
+`enum4linux 10.10.10.20`
 
 * Try crackmapexec to list accessibles SMB shares
 
-`crackmapexec smb 10.10.10.10 -u "" -p "" --shares` 
+`crackmapexec smb 10.10.10.20 -u "" -p "" --shares` 
 
 * If you got an share read access, download all the files and analyze your loot. grep with pass,key,secret,username,ssh,ftp...
 
