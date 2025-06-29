@@ -8,7 +8,7 @@
 * Check if there's any files that give contextual hints or point towards a vulnerable service running on an unknown port
 * Open each service note and dig deep starting with FTP, SNMP, SMB, HTTP
 
-  ###21 - FTP
+### 21 - FTP
 
 * Check version using `searchsploit` for public exploits
 * Check for `anonymous` login
@@ -16,7 +16,7 @@
 * Download the directory `wget -m ftp://anonymous:anonymous@192.168.215.245`
 * Check if there's anything that points towards uploads going to the web directory
 
-###80 - WEB
+### 80 - WEB
 
 * Check Web Application Checklist
 * Check version using `searchsploit` for public exploits (Traversal, SQLi, RCE)
@@ -28,7 +28,7 @@
 	* See if there's any hints to valid users or software in pages or source code
 * Test everything for default credentials or username being the password
 
-###161 - SNMP
+### 161 - SNMP
 * Enumerate community strings on v1 and v2
  
 	 `sudo nmap -sU -p 161 --script snmp-brute 192.168.194.149`
@@ -39,7 +39,7 @@
   
 	 `snmpwalk -v2c -c public 192.168.194.149 | grep <string>`
 
- ### [[445 - SMB]]
+ ### 445 - SMB
 
 * This list is to reproduce with every new access you harvest.
 * Try enum4linux to enumerate smb information.
