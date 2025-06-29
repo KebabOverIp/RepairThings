@@ -4,7 +4,7 @@ Take what you need, it's there for that.
 
 STRUCTURE :
 
-Checklists -> Methodology step by step for attacking or elevating privileges. refering to exploit or cheatsheat object
+Checklists -> Methodology step by step for attacking or elevating privileges. refering to exploit or cheatsheat objects
 
 Lists -> Repository of various pathlists or wordlists, ideal for enum file in LFI situation, bruteforce, enum web app...
 
