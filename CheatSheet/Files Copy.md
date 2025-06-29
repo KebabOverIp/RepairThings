@@ -1,6 +1,5 @@
 # Files Copy
 
-### windows:
 
 * certutil.exe
 ```
