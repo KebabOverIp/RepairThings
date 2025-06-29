@@ -4,7 +4,7 @@ STRUCTURE :
 
 Checklists #Methodology step by step for attacking or elevating privileges. refering to exploit or cheatsheat object
 
-Lists #Repository of various pathlists or wordlists, ideal for enum file in LFI situation, bruteforce, enum web app or API... ENUM ENUM ENUM!
+Lists #Repository of various pathlists or wordlists, ideal for enum file in LFI situation, bruteforce, enum web app...
 
 Exploit #Scripts & exploits poc repository.
 
