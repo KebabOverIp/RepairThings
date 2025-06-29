@@ -13,14 +13,18 @@
 * Check version using `searchsploit` for public exploits
 * Check for `anonymous` login
 * Check for hints within the directory (i.e. `minniemouse.exe`)
-* Download the directory `wget -m ftp://anonymous:anonymous@192.168.215.245`
+* Download the directory `wget -m ftp://anonymous:anonymous@10.10.10.20`
 * Check if there's anything that points towards uploads going to the web directory
+
+### 22 - SSH
+
+* Try to bruteforce basics credentials as ftp:ftp, user:user, backup:backup, webappname:webappname... 
 
 ### 80 - WEB
 
 * Check Web Application Checklist
 * Check version using `searchsploit` for public exploits (Traversal, SQLi, RCE)
-* Check to see if anything else is running using `whatweb http://10.10.10.10` (searchsploit, wordpress)
+* Check to see if anything else is running using `whatweb http://10.10.10.20` (searchsploit, wordpress)
 * Fully enumerate with directory brute-forcing
 	* Run multiple tools and check for file extensions, try from deeper directories
 * Visit site in the browser and look for any context clues
@@ -31,13 +35,13 @@
 ### 161 - SNMP
 * Enumerate community strings on v1 and v2
  
-	 `sudo nmap -sU -p 161 --script snmp-brute 192.168.194.149`
+	 `sudo nmap -sU -p 161 --script snmp-brute 10.10.10.20`
   
 * Try to get useful information from accessible communities
  
-	 `snmpwalk -v 1 -c public 192.168.194.149 NET-SNMP-EXTEND-MIB::nsExtendObjects`
+	 `snmpwalk -v 1 -c public 10.10.10.20 NET-SNMP-EXTEND-MIB::nsExtendObjects`
   
-	 `snmpwalk -v2c -c public 192.168.194.149 | grep <string>`
+	 `snmpwalk -v2c -c public 10.10.10.20 | grep <string>`
 
  ### 445 - SMB
 
@@ -52,9 +56,15 @@
 
 * If you got an share read access, download all the files and analyze your loot. grep with pass,key,secret,username,ssh,ftp...
 
+### 389 LDAP
 
+* Try `ldapdomaindump`
 
+ `ldapdomaindump -u 'foo.domain\username' -p 'password' --no-json --no-grep 10.10.10.20`
 
+* Make a wordlist from user domains dumps, one liner :
+  `grep -oP '<tr><td>\K[^<]+' domain_users.html`
+  
 
 
 
