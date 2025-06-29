@@ -1,5 +1,7 @@
 # RepairThings
 My own taking note in preparation to the OSCP exam.
+Take what you need, it's there for that.
+
 STRUCTURE :
 
 Checklists -> Methodology step by step for attacking or elevating privileges. refering to exploit or cheatsheat object
