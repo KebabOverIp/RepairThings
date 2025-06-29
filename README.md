@@ -1,5 +1,5 @@
 # RepairThings
-My own taking note in preparation to the OSCP exam.
+My own taking note in preparation for the OSCP exam.
 Take what you need, it's there for that.
 
 STRUCTURE :
