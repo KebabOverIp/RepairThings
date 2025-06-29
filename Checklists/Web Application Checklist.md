@@ -1,4 +1,7 @@
-## Web Application : what to do 
+## Web Application : WTF i am doin?
 
-* Look at the service version of ports and see if there is any low-hanging fruit or public exploits
-* If nothing easy is found, look deeper into the services (FTP,SMB,NFS,SMTP,WEB)
+* Analyze nmap output with caution, remember that even apache version can lead to RCE, service name runing, version, search about it.
+* Enumerate the web application dirctory and params -> See : Webapp Enum Checklist  (incoming)
+* Analyze your loot, if nothing seems juicy, change wordlist, if nothing change, change tools configuration or tools (gobuster, dirbuster, dirb...)
+* Try to fuzz any parameter with this check list : Param Fuzzing Checklist
+* 
