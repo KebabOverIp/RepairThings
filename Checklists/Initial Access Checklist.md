@@ -43,6 +43,21 @@
   
 	 `snmpwalk -v2c -c public 10.10.10.20 | grep <string>`
 
+
+### 389 LDAP
+
+* Try `ldapdomaindump`
+
+ `ldapdomaindump -u 'foo.domain\username' -p 'password' --no-json --no-grep 10.10.10.20`
+
+* Make a wordlist from user domains dumps, one liner :
+  `grep -oP '<tr><td>\K[^<]+' domain_users.html`
+
+* Analyze dumps with caution, any informations can be useful
+
+
+
+
  ### 445 - SMB
 
 * This list is to reproduce with every new access you harvest.
@@ -56,14 +71,7 @@
 
 * If you got an share read access, download all the files and analyze your loot. grep with pass,key,secret,username,ssh,ftp...
 
-### 389 LDAP
 
-* Try `ldapdomaindump`
-
- `ldapdomaindump -u 'foo.domain\username' -p 'password' --no-json --no-grep 10.10.10.20`
-
-* Make a wordlist from user domains dumps, one liner :
-  `grep -oP '<tr><td>\K[^<]+' domain_users.html`
   
 
 
