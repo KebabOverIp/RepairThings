@@ -10,7 +10,7 @@
 
 ### 21 - FTP
 
-* Check version using `searchsploit` for public exploits
+* Check version using `searchsploit` and search engine for public exploits
 * Check for `anonymous` login
 * Check for hints within the directory (i.e. `minniemouse.exe`)
 * Download the directory `wget -m ftp://anonymous:anonymous@10.10.10.20`
