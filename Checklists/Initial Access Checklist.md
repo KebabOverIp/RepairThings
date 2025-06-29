@@ -12,7 +12,7 @@
 
 * Check version using `searchsploit` and search engine for public exploits
 * Check for `anonymous` login
-* Check for hints within the directory (i.e. `minniemouse.exe`)
+* Check for hints within the directory (i.e. `superVulnSoft_v11-2.exe`)
 * Download the directory `wget -m ftp://anonymous:anonymous@10.10.10.20`
 * Check if there's anything that points towards uploads going to the web directory
 
