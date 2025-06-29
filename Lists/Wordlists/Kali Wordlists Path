@@ -1,7 +1,6 @@
+remember to grep -ri "productname @/usr/share/wordlists/ ? :)
+
 #HTTP ENUM
-
-grep -ri "productname @/usr/share/wordlists/ ? :)
-
 /usr/share/wordlists/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-big.tx
 /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt
 /usr/share/wordlists/dirbuster/directory-list-1.0.txt
@@ -16,8 +15,6 @@ grep -ri "productname @/usr/share/wordlists/ ? :)
 
 
 #HTTP SUBDOMAINS ENUM
-
-
 /usr/share/wordlists/seclists/Discovery/DNS/subdomains-spanish.txt
 /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt
 /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt
@@ -29,11 +26,12 @@ grep -ri "productname @/usr/share/wordlists/ ? :)
 /usr/share/wordlists/seclists/Discovery/DNS/sortedcombined-knock-dnsrecon-fierce-reconng.txt
 
 
+#BRUTEFORCE
+
 
 
 
 #FUZZING
-
 /usr/share/wordlists/seclists/Fuzzing/0-999999-hashgen.py
 /usr/share/wordlists/seclists/Fuzzing/1-4_all_letters_a-z.txt
 /usr/share/wordlists/seclists/Fuzzing/3-digits-000-999.txt
