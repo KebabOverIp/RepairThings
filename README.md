@@ -28,4 +28,5 @@ sources :
 ```
 https://swisskyrepo.github.io/InternalAllTheThings/
 https://github.com/swisskyrepo/PayloadsAllTheThings
+https://github.com/crtvrffnrt/OSCP-Checklist-Cheatsheet2024
 ```
