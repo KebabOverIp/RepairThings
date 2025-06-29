@@ -26,5 +26,9 @@ find / -name "local.txt" 2>/dev/null
 ```
 
 ```
+which busybox
+```
+
+```
 grep -ri <filename>
 ```
