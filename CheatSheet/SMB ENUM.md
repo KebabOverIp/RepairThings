@@ -1,4 +1,4 @@
-# SMB
+# SMB ENUM
 
 NSE scripts can be used
 ```
