@@ -40,5 +40,12 @@ ip route list
 
 now link is seen as up. let's nmap everythings !
 
+### Others commands
+
+
+add a listener on (pivot machine:port -- to localhost machine:port)
+```
+listener_add --addr 0.0.0.0:8443 --to 127.0.0.1:1337
+```
 
 
