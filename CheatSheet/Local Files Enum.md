@@ -32,3 +32,7 @@ which busybox
 ```
 grep -ri <filename>
 ```
+
+```
+grep -A1 -B1 -RniE '(password|passwd|pass|secret|token|apikey|api_key|auth|credentials)\s*[=:]\s*.+$' 2>/dev/null
+```
