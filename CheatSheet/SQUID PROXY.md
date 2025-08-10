@@ -20,6 +20,10 @@ SPOSE Scanner
 
 Alternatively, the Squid Pivoting Open Port Scanner (spose.py) can be used.
 
+https://book.hacktricks.wiki/en/network-services-pentesting/3128-pentesting-squid.html#spose-scanner
+[
+https://book.hacktricks.wiki/en/network-services-pentesting/3128-pentesting-squid.html#spose-scanner](https://github.com/aancw/spose)
+
 bash
 
 ```bash
