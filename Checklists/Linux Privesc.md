@@ -1,4 +1,6 @@
-sudo -l￼￼
+
+```
+sudo -l
 
 find / -type f -perm -u=s 2>/dev/null | xargs ls -l
 
@@ -12,4 +14,4 @@ env
 
 cat .bashrc
 
-
+```
