@@ -36,3 +36,9 @@ grep -ri <filename>
 ```
 grep -A1 -B1 -RniE '(password|passwd|pass|secret|token|apikey|api_key|auth|credentials)\s*[=:]\s*.+$' 2>/dev/null
 ```
+
+mlocate
+
+```
+grep -a -o -P '[\x20-\x7E]{4,}' /var/lib/mlocate/mlocate.db
+```
