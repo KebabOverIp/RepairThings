@@ -1,6 +1,6 @@
 sudo -l￼￼
 
- find / -type f -perm -u=s 2>/dev/null | xargs ls -l
+find / -type f -perm -u=s 2>/dev/null | xargs ls -l
 
 /usr/sbin/getcap -r / 2>/dev/null
 
