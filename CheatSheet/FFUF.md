@@ -25,8 +25,8 @@ ffuf -v -w /usr/share/wordlists/seclists/Fuzzing/4-digits-0000-9999.txt -u http:
 ```
 
 
-
+Subdomains
 ```
-
+ffuf -u http://FUZZ.example.com/ -w <wordlist>
 ```
 
