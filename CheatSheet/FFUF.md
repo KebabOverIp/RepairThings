@@ -1,6 +1,6 @@
 ### FFUF
 
-
+https://olivierkonate.medium.com/subdomain-enumeration-2c6d4c553df4
 
 Brute-force directories/files with specific extensions
 
