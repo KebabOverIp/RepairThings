@@ -27,6 +27,6 @@ ffuf -v -w /usr/share/wordlists/seclists/Fuzzing/4-digits-0000-9999.txt -u http:
 
 Subdomains
 ```
-ffuf -u http://FUZZ.example.com/ -w <wordlist>
+ffuf -w /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.marshalled.pg" -u http://192.168.189.237
 ```
 
