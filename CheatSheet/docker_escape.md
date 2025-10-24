@@ -1009,6 +1009,4 @@ Ce document est fourni **à des fins éducatives uniquement**. L'utilisation de 
 
 ---
 
-**Version** : 1.0  
-**Dernière mise à jour** : Octobre 2025  
-**Auteur** : SEAPEAS Project
+
